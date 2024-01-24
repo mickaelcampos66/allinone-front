@@ -1,0 +1,29 @@
+.List{
+ width: 90%;
+ margin: auto;
+ .list-oeuvre{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+ .decaler{
+  position: relative;
+  right: 30px;
+  top: 5px;
+
+
+ }
+ }
+
+
+
+@media (min-width: 500px){
+ .decaler{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  position: static !important;
+
+ }
+}

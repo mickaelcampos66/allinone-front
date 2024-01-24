@@ -1,0 +1,55 @@
+.Login-register-desktop{
+  margin-bottom: 40vh !important;
+
+  text-align: center;
+  .Form{
+    display: flex;
+    flex-direction: column;
+    label{
+      color: White;
+      width: 50%;
+      margin: auto;
+      margin-top: 2em;
+    }
+    input{
+      background-color: #bebebe;
+      color: black;
+      border: none;
+      height: 50px;
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+
+}
+
+.Login-register-mobile{
+  margin-bottom: 44vh;
+  .Form{
+    position: relative;
+    top: 25vh;
+
+    input{
+      width: 100%;
+      height: 50px;
+      margin-top: 2em;
+    }
+  }
+  .ModalFormRegister{
+    text-align: center;
+    position: relative;
+    top: 30vh;
+
+    input{
+      margin-top: 1em;
+  border: none;
+      background-color: #464646;
+      height: 50px;
+      width: 100%;
+      color: white;
+    }
+  }
+
+}
+

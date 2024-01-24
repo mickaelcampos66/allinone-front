@@ -1,0 +1,26 @@
+.Carousel {
+  position: relative;
+  z-index: 0 !important;
+.widthCarousel{
+
+width: 145px;
+}
+
+  .arrow-left{
+
+    position: relative !important;
+    left: -10vw ;
+  }
+
+  .arrow-right{
+
+    position: relative !important;
+    right: -10vw ;
+  }
+
+
+  .picture{
+    height: 200px;
+
+  }
+}

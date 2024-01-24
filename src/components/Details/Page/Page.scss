@@ -1,0 +1,46 @@
+.Page{
+  #Poster{
+    img{
+      width: 300px;
+    }
+    .btn-favs{
+
+    }
+  }
+  .synopsis{
+
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 1em;
+    margin-top: 2em;
+    h3{
+      font-size: 1em;
+    }
+  }
+  .img-actor{
+    text-align: center;
+  width: 400px;
+
+
+}
+
+  .inputForm{
+    height: 54px;
+  }
+
+  #reviews{
+    margin-bottom: 12vh;
+  }
+}
+
+#reviews-mobile{
+  margin-bottom: 15vh;
+}
+
+@media (min-width: 1024px) {
+  .Page{
+    #Poster{
+      .btn-favs{
+        width: 300px !important;
+      }
+    }}
+}

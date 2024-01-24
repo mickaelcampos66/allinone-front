@@ -1,0 +1,107 @@
+.NavBar {
+  z-index: 1 !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.58);
+  .bg-blue {
+    background-color: #273043 !important;
+  }
+
+  .cacher {
+    background-color: rgba(39, 48, 67, 0.77) !important;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.58);
+    height: 100vh;
+    position: absolute;
+    top: 54px;
+    right: -100px;
+    color: white;
+    padding: 0;
+    flex-direction: column;
+    z-index: 1 !important;
+    transition-duration: 0.5s;
+  }
+  .link {
+    background-color: rgba(39, 48, 67, 0.77) !important;
+
+    height: 100vh;
+    position: absolute;
+    top: 54px;
+    right: 0;
+    color: white;
+    padding: 0;
+    flex-direction: column;
+    z-index: 1 !important;
+    transition-duration: 0.5s;
+    font-size: 1.2em;
+  }
+  .lien {
+    text-align: center;
+  }
+  .link-nav {
+    color: white;
+    text-decoration: none;
+  }
+  .link-nav:hover {
+    text-decoration: underline;
+  }
+
+  .link * {
+    margin: 0.25em;
+  }
+  .active {
+    text-decoration: underline;
+  }
+
+  .auth-mobile {
+    display: none;
+  }
+
+  .auth-desktop {
+    display: block;
+  }
+
+  .button-burger{
+    width: 40px;
+    position: absolute;
+    right: 30px;
+  }
+
+  @media (max-width: 1024px) {
+    .auth-mobile {
+      display: block;
+    }
+
+    .auth-desktop {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .button {
+      display: none;
+    }
+    .link {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: transparent;
+      position: static;
+      display: flex;
+      height: 0;
+      width: 100%;
+      flex-direction: row;
+    }
+    .link * {
+      margin-left: 1em;
+    }
+
+    .auth-mobile {
+      display: none;
+    }
+
+    .auth-desktop {
+      display: block;
+    }
+  }
+}

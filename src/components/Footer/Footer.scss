@@ -1,0 +1,42 @@
+footer{
+  margin-top: 100px !important;
+  height: fit-content !important;
+  color: white;
+  ul{
+    flex-direction: column;
+    li{
+      width: fit-content;
+      list-style: none;
+      a{
+        font-size: 0.8em;
+
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+        color: white;
+      }
+    }
+  }
+
+
+}
+.bg-blue {
+  background-color: #273043 !important;
+}
+
+@media (min-width: 1024px){
+  footer{
+height: 100px !important;
+
+    ul{flex-direction: row !important;
+      justify-content: center;
+      height: 100%;
+      li{
+        a{font-size: 1.2em}
+      }
+    }
+    }
+
+}

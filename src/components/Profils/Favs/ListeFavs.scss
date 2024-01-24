@@ -1,0 +1,30 @@
+#List{
+  margin-top: 100px;
+  .card{
+    width: 20rem;
+    margin: 1em auto;
+    img{
+      height: 300px;
+    }
+.card-title{
+  font-size: 1.1em !important;
+}
+    .summary{
+      height: 100px;
+    }
+  }
+
+
+}
+
+@media (min-width: 1024px){
+  #List{
+    .card-list {
+      width: 90%;
+      margin: auto;
+    }
+    .card{
+      margin: 1em;
+    }
+  }
+}
